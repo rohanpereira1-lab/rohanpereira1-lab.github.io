@@ -63,12 +63,15 @@ export const Contact = () => (
         <p className="text-xs uppercase tracking-[0.2em] text-paper/50 mb-3 inline-flex items-center gap-2">
           <Github className="w-3.5 h-3.5 text-teal" /> GitHub
         </p>
-        <p
-          data-testid="contact-github-placeholder"
-          className="font-serif text-xl text-paper/60 border border-dashed border-paper/30 px-3 py-2 inline-block"
+        <a
+          data-testid="contact-github-link"
+          href="https://github.com/rohanpereira1-lab"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-serif text-xl hover:text-teal transition-colors duration-300"
         >
-          [PLACEHOLDER: GitHub URL]
-        </p>
+          /rohanpereira1-lab
+        </a>
       </Reveal>
     </div>
 
