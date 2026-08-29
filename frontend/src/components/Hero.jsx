@@ -3,8 +3,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowDown, ArrowUpRight, Download, MapPin } from "lucide-react";
 import { scrollToSection } from "@/lib/scroll";
 
-const HERO_IMG =
-  "https://images.unsplash.com/photo-1498262257252-c282316270bc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMGFyY2hpdGVjdHVyZSUyMG1pbmltYWxpc3QlMjBzbGF0ZXxlbnwwfHx8fDE3ODgwMDgzODh8MA&ixlib=rb-4.1.0&q=85&w=900&auto=format";
+const HERO_IMG = "/peterson-pereira.png";
 
 const maskLine = {
   hidden: { y: "110%" },
@@ -138,16 +137,10 @@ export const Hero = () => {
               >
                 <img
                   src={HERO_IMG}
-                  alt="Abstract architectural detail"
-                  className="w-full h-full object-cover scale-110"
+                  alt="Peterson Pereira — Global Talent Acquisition Leader"
+                  className="w-full h-full object-cover"
                 />
               </div>
-              <p
-                className="mt-3 text-xs text-muted-foreground tracking-wide"
-                data-testid="hero-photo-placeholder"
-              >
-                [PLACEHOLDER: Professional photo — replace with your portrait]
-              </p>
             </motion.div>
           </motion.div>
         </div>
