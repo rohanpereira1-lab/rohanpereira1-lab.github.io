@@ -16,12 +16,12 @@ const EDUCATION = [
   {
     year: "2004",
     title: "Bachelor of Commerce — Grade II",
-    school: null,
+    school: "Gujarat University",
   },
   {
     year: "2006",
     title: "Diploma in Financial Banking & Derivatives — A+",
-    school: null,
+    school: "Gujarat University",
   },
 ];
 

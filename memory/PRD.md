@@ -25,7 +25,7 @@ Build a modern, single-page personal portfolio website from Peterson Pereira's r
 - About chapter 01 with 2–3 sentence summary + 4 impact stats (55→35 days TTF, 78.5% fulfillment, −25% CPH, 80% QoH)
 - Experience timeline chapter 02: 5 roles (Relevance Lab AVP → Interactive Manpower 2005) with dates + 1–2 highlight bullets
 - Skills chapter 03: 4 categories (Talent Leadership, Platforms & Systems, Sourcing & Talent Intelligence, Analytics & Reporting)
-- Education & Certifications chapter 04 (2026-08-29): S.S.C. 70% (2000) & H.S.C. 74% (2001) St. Xavier's High School Gujarat Board, B.Com Grade II (2004), Diploma in Financial Banking & Derivatives A+ (2006), Certified Recruitment Professional — Ma Foi Management Ltd. Chapters renumbered: Highlights 05, Contact 06; Education added to nav
+- Education & Certifications chapter 04 (2026-08-29): S.S.C. 70% (2000) & H.S.C. 74% (2001) St. Xavier's High School Gujarat Board, B.Com Grade II (2004) & Diploma in Financial Banking & Derivatives A+ (2006), both Gujarat University, Certified Recruitment Professional — Ma Foi Management Ltd. Chapters renumbered: Highlights 05, Contact 06; Education added to nav
 - Highlights chapter 05: 6 cards incl. featured Recruitment Transformation metric card
 - Contact chapter 06 (dark): massive mailto email, phone, location, LinkedIn /in/pereirapeterson, [PLACEHOLDER: GitHub URL]
 - Sticky glass navbar with animated underlines + mobile hamburger menu; lenis momentum scrolling; staggered framer-motion scroll reveals; grain overlay; responsive verified at 390px
