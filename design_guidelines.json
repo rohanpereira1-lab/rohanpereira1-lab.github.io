@@ -1,0 +1,101 @@
+{
+  "theme": "light",
+  "design_concept": "Executive Editorial Brutalism. A mature, high-contrast, text-forward design blending Swiss grid discipline with organic spacing. Uses a 'Slate & Teal' palette to convey authority and modern sophistication for an executive portfolio.",
+  "colors": {
+    "background": "#F4F4F0",
+    "surface": "#EAEAE5",
+    "foreground": "#0B1325",
+    "muted_foreground": "#505768",
+    "primary": "#4A827E",
+    "primary_hover": "#36635F",
+    "border": "#D5D5CE"
+  },
+  "typography": {
+    "font_strategy": "The 'Old Money Tech' Pairing (Classic Serif Head + Sterile Mono/Clean Sans Body)",
+    "fonts": {
+      "headings": "Cormorant Garamond, serif",
+      "body": "Outfit, sans-serif"
+    },
+    "scale": {
+      "h1_kinetic": "text-[clamp(3rem,8vw,5rem)] leading-[0.9] tracking-tighter font-medium",
+      "h2_chapter": "text-3xl sm:text-4xl lg:text-5xl leading-tight tracking-tight font-normal",
+      "h3_role": "text-xl sm:text-2xl font-medium tracking-tight",
+      "body": "text-base sm:text-lg leading-relaxed text-muted_foreground",
+      "overline": "text-xs uppercase tracking-[0.2em] text-primary font-bold"
+    }
+  },
+  "layout_and_spacing": {
+    "grid_system": "The 'Tetris' Grid (Asymmetrical Bento/Editorial Grid). Leave empty cells for negative space.",
+    "container_padding": "px-6 md:px-12 lg:px-24",
+    "section_spacing": "py-24 md:py-32 lg:py-40",
+    "element_spacing": "gap-8 md:gap-12 lg:gap-16"
+  },
+  "visual_enhancers": {
+    "surfaces": "Solid flat backgrounds with 1px delicate borders (`border-border`). No heavy drop shadows. Rely on typography and negative space for structure.",
+    "textures": "Include a subtle noise/grain overlay fixed on the body to break digital flatness.",
+    "border_radius": "Rounded-none or ultra-sharp (max 2px) to maintain editorial rigidness."
+  },
+  "motion": {
+    "scrolling": "MUST use 'lenis' for momentum smooth scrolling.",
+    "hero_reveal": "Masked line-by-line reveal using framer-motion. Wrap each line of text in an `overflow-hidden` div, and animate the inner text from `y: '100%'` to `y: 0` with a slow ease (e.g., `[0.76, 0, 0.24, 1]`).",
+    "scroll_reveals": "Staggered fade-up (`y: 30`, `opacity: 0` -> `y: 0`, `opacity: 1`) on scroll for Experience and Project items.",
+    "parallax": "Subtle framer-motion `useScroll` + `useTransform` on the hero portrait or abstract image (moving slightly vertically relative to scroll)."
+  },
+  "sections_direction": {
+    "navigation": "Sticky, Glassmorphism (`backdrop-blur-xl bg-[#F4F4F0]/90`), 1px bottom border. Include Logo/Name, anchor links, and a primary 'Get in Touch' button. Do NOT make it fully transparent.",
+    "hero": {
+      "layout": "Asymmetrical Grid. Left column: Kinetic Typography. Right column/Background: Subtle Parallax Image.",
+      "content": "Name ('Peterson Pereira'), Headline ('Global Head of Talent Acquisition'), and a 1-line Tagline [PLACEHOLDER: Tagline].",
+      "animation": "Signature line-by-line reveal on load."
+    },
+    "marquee": "Slow editorial ribbon using 'react-fast-marquee'. Pale background (`#EAEAE5`), dark serif text, massive gaps. Text: 'TALENT ACQUISITION • LEADERSHIP • CULTURE • [PLACEHOLDER: Core Value]'.",
+    "about_manifesto": {
+      "layout": "Numbered chapters (e.g., '01 / The Philosophy'). Asymmetrical two-column grid where chapter number is massive and content is compact.",
+      "content": "2-3 sentences summarising background. Use `[PLACEHOLDER: About Summary]`."
+    },
+    "experience_timeline": {
+      "layout": "Vertical line on the left. Roles stack vertically with generous padding. Minimalist nodes.",
+      "content": "Role, Company, Dates, 1-2 highlight bullets. Use `[PLACEHOLDER: Role]`, `[PLACEHOLDER: Company]`, etc."
+    },
+    "skills": {
+      "layout": "Grouped categories. Typographic list rather than heavy cards. Overline for category name, comma-separated list of skills.",
+      "content": "Use `[PLACEHOLDER: Skill Category]` and `[PLACEHOLDER: Skills List]`."
+    },
+    "projects_highlights": {
+      "layout": "Large editorial grid. Hover interactions (framer-motion image reveal on cursor or subtle color shift).",
+      "content": "Project name, role, impact. Use `[PLACEHOLDER: Project Name]`."
+    },
+    "contact": {
+      "layout": "Massive typography for email. Minimalist footer layout.",
+      "content": "Email: `[PLACEHOLDER: email@example.com]`, Links: LinkedIn, GitHub (`[PLACEHOLDER: GitHub Link]`)."
+    }
+  },
+  "media": {
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1560250097-0b93528c311a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzd8MHwxfHNlYXJjaHwxfHxtYXR1cmUlMjBleGVjdXRpdmUlMjBwb3J0cmFpdCUyMG1hbiUyMHByb2Zlc3Npb25hbHxlbnwwfHx8fDE3ODgwMDgzODh8MA&ixlib=rb-4.1.0&q=85",
+        "category": "hero_portrait",
+        "description": "Executive portrait proxy for Peterson Pereira."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1498262257252-c282316270bc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1NzZ8MHwxfHNlYXJjaHwzfHxhYnN0cmFjdCUyMGFyY2hpdGVjdHVyZSUyMG1pbmltYWxpc3QlMjBzbGF0ZXxlbnwwfHx8fDE3ODgwMDgzODh8MA&ixlib=rb-4.1.0&q=85",
+        "category": "abstract_accent",
+        "description": "Subtle abstract architectural element for parallax backgrounds or chapter dividers."
+      }
+    ]
+  },
+  "component_instructions": {
+    "Shadcn": "Use Shadcn primarily for complex interactive elements (e.g., Dialogs). For layout sections, stick to raw HTML/Tailwind to maintain the custom editorial art direction.",
+    "Icons": "Use `lucide-react`. Keep them small and minimal.",
+    "Placeholders": "CRITICAL: Wrap any missing resume data in explicit placeholders like `[PLACEHOLDER: GitHub URL]` or `[PLACEHOLDER: Company Name]`."
+  },
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "No centered layouts for body text; keep paragraphs left-aligned for an editorial feel.",
+    "Do NOT use pure #000000 or #FFFFFF. Use the provided tinted slate/navy and off-white hex codes.",
+    "Ensure all interactive elements and key text containers have a `data-testid` attribute (e.g., `data-testid='hero-heading'`).",
+    "Implement `lenis` for smooth momentum scrolling.",
+    "Use Framer Motion extensively for staggered reveals and line-by-line masked text animations on load.",
+    "Add generous padding (p-12, p-24) to let the typography breathe.",
+    "Never apply `transition-all`. Target specific properties like `transition-colors`, `transition-transform`."
+  ]
+}
