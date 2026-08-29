@@ -19,7 +19,8 @@ Build a modern, single-page personal portfolio website from Peterson Pereira's r
 - Professional network contacts (LinkedIn-driven traffic)
 
 ## Implemented (2026-08-29)
-- Hero: masked line-by-line kinetic reveal, parallax abstract visual with [PLACEHOLDER: Professional photo] caption, CTAs, location meta
+- Hero: masked line-by-line kinetic reveal, parallax abstract visual with [PLACEHOLDER: Professional photo] caption, CTAs (View Experience, Get in Touch, Download Résumé), location meta
+- Résumé PDF download (2026-08-29): uploaded "Peterson Pereira - Resume May 2026.pdf" served at /Peterson-Pereira-Resume.pdf, hero button with download attribute
 - Slow editorial marquee band (Talent Acquisition / Leadership / Culture / ...)
 - About chapter 01 with 2–3 sentence summary + 4 impact stats (55→35 days TTF, 78.5% fulfillment, −25% CPH, 80% QoH)
 - Experience timeline chapter 02: 5 roles (Relevance Lab AVP → Interactive Manpower 2005) with dates + 1–2 highlight bullets
@@ -36,4 +37,4 @@ Build a modern, single-page personal portfolio website from Peterson Pereira's r
 ## Backlog
 - P0: Replace [PLACEHOLDER: Professional photo] with real portrait; add GitHub URL if desired
 - P1: (done) Education & Certifications section
-- P2: Downloadable résumé PDF button; contact form with email delivery; dark mode toggle; SEO/OpenGraph share image
+- P2: (done) Downloadable résumé PDF button; remaining: contact form with email delivery; dark mode toggle; SEO/OpenGraph share image

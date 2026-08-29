@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { ArrowDown, ArrowUpRight, MapPin } from "lucide-react";
+import { ArrowDown, ArrowUpRight, Download, MapPin } from "lucide-react";
 import { scrollToSection } from "@/lib/scroll";
 
 const HERO_IMG =
@@ -98,6 +98,15 @@ export const Hero = () => {
             >
               Get in Touch
             </button>
+            <a
+              data-testid="hero-resume-download"
+              href="/Peterson-Pereira-Resume.pdf"
+              download="Peterson-Pereira-Resume.pdf"
+              className="group inline-flex items-center gap-2 px-2 py-3 text-sm tracking-wide text-muted-foreground hover:text-ink transition-colors duration-300"
+            >
+              <Download className="w-4 h-4 text-teal transition-transform duration-300 group-hover:translate-y-0.5" />
+              Download Résumé
+            </a>
           </motion.div>
 
           <motion.div
