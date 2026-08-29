@@ -7,6 +7,7 @@ import { MarqueeBand } from "@/components/MarqueeBand";
 import { About } from "@/components/About";
 import { Experience } from "@/components/Experience";
 import { Skills } from "@/components/Skills";
+import { Education } from "@/components/Education";
 import { Highlights } from "@/components/Highlights";
 import { Contact } from "@/components/Contact";
 
@@ -37,6 +38,7 @@ function App() {
         <About />
         <Experience />
         <Skills />
+        <Education />
         <Highlights />
         <Contact />
       </main>

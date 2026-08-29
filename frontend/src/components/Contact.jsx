@@ -8,7 +8,7 @@ export const Contact = () => (
     data-testid="contact-section"
     className="bg-ink text-paper px-6 md:px-12 lg:px-24 py-24 md:py-32 lg:py-40"
   >
-    <SectionHeader number="05" title="Contact" dark />
+    <SectionHeader number="06" title="Contact" dark />
 
     <Reveal testId="contact-intro">
       <p className="text-xs uppercase tracking-[0.25em] text-teal font-semibold">

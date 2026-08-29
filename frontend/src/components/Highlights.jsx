@@ -38,7 +38,7 @@ export const Highlights = () => (
     data-testid="highlights-section"
     className="px-6 md:px-12 lg:px-24 py-24 md:py-32 lg:py-40 bg-surface border-y border-line"
   >
-    <SectionHeader number="04" title="Highlights" />
+    <SectionHeader number="05" title="Highlights" />
 
     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-px bg-line border border-line">
       {ITEMS.map((item, i) => (
