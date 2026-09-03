@@ -33,6 +33,10 @@ jobs:
         working-directory: frontend
         run: npm install --legacy-peer-deps
 
+      - name: Fix AJV dependency
+        working-directory: frontend
+        run: npm install ajv@8 ajv-keywords@5 --legacy-peer-deps
+
       - name: Build portfolio
         working-directory: frontend
         run: CI=false npm run build
