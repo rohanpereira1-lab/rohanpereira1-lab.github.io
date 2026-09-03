@@ -16,10 +16,10 @@ export const Contact = () => (
       </p>
       <a
         data-testid="contact-email-link"
-        href="mailto:rohanpereira1@gmail.com"
+        href="mailto:rohan.pereira1@gmail.com"
         className="group mt-6 inline-flex items-center gap-3 md:gap-5 font-serif text-[clamp(1.7rem,4.5vw,3.75rem)] leading-tight tracking-tight hover:text-teal transition-colors duration-300 break-all"
       >
-        rohanpereira1@gmail.com
+        rohan.pereira1@gmail.com
         <ArrowUpRight className="w-8 h-8 md:w-12 md:h-12 text-teal shrink-0 transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1" />
       </a>
     </Reveal>

@@ -27,7 +27,7 @@ Build a modern, single-page personal portfolio website from Peterson Pereira's r
 - Skills chapter 03: 4 categories (Talent Leadership, Platforms & Systems, Sourcing & Talent Intelligence, Analytics & Reporting)
 - Education & Certifications chapter 04 (2026-08-29): S.S.C. 70% (2000) & H.S.C. 74% (2001) St. Xavier's High School Gujarat Board, B.Com Grade II (2004) & Diploma in Financial Banking & Derivatives A+ (2006), both Gujarat University, Certified Recruitment Professional — Ma Foi Management Ltd. Chapters renumbered: Highlights 05, Contact 06; Education added to nav
 - Highlights chapter 05: 6 cards incl. featured Recruitment Transformation metric card
-- Contact chapter 06 (dark): massive mailto email, phone, location, LinkedIn /in/pereirapeterson, GitHub /rohanpereira1-lab (added 2026-08-29) — no placeholders remain anywhere on the site
+- Contact chapter 06 (dark): massive mailto email (corrected 2026-09-03 to rohan.pereira1@gmail.com), phone, location, LinkedIn /in/pereirapeterson, GitHub /rohanpereira1-lab (added 2026-08-29) — no placeholders remain anywhere on the site
 - Sticky glass navbar with animated underlines + mobile hamburger menu; lenis momentum scrolling; staggered framer-motion scroll reveals; grain overlay; responsive verified at 390px
 
 ## Verified
